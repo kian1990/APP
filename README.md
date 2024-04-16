@@ -1,4 +1,5 @@
----> for unlimited user license in linux  
+
+---> sublime_text_build_4169_x64 linux/windwos  
 file bash "sublime_text" is in /opt/sublime_text/sublime_text  
 first go to site https://hexed.it/  
 click on Open file and put file "sublime_text"  
