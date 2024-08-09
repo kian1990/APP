@@ -12,3 +12,11 @@ then write this command in terminal
 sudo mv /opt/sublime_text/sublime_text ./sublime_text.old cd $HOME/Downloads/ chmod 755 sublime_text sudo chown root sublime_text sudo chgrp root sublime_text sudo mv sublime_text /opt/sublime_text/  
 
 Done Happy Code (^-^)
+
+for macos  
+cd /Applications/Sublime\ Text.app/Contents/MacOS/  
+cp $HOME/Downloads/sublime_text sublime_text  
+chmod 775 sublime_text  
+
+sudo codesign --force --deep --sign - /Applications/Sublime\ Text.app  
+sudo xattr -rd com.apple.quarantine /Applications/Sublime\ Text.app  
