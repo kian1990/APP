@@ -1,0 +1,2 @@
+sudo vim /var/lib/dpkg/status
+删除报错的包名称整段
