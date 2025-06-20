@@ -1,0 +1,1 @@
+/usr/local/bin/flashrom_eve_tp -p ec:type=tp -i EC_RW -w /opt/google/touch/firmware/rose_v2.0.653-dfd8046c6.bin -o /tmp/flashrom.log
